@@ -1,0 +1,23 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DBrowser based game\"",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/IsAndrey/neto_first_npm_package#readme",
+  "bugs": {
+    "url": "https://github.com/IsAndrey/neto_first_npm_package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsAndrey/neto_first_npm_package.git"
+  },
+  "license": "ISC",
+  "author": "IsAndrey",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
