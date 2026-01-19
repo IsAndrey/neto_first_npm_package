@@ -7,6 +7,10 @@ export default defineConfig([
     plugins: { js },
     extends: ["js/recommended"],
     languageOptions: { globals: {...globals.browser, ...globals.node} },
-    ignores: ["dist/*"]
+    ignores: ["dist/*"],
+    rules: {
+      "no-unused-vars": "warn",
+      "no-multiple-empty-lines": "warn"
+    }
   },
 ]);
